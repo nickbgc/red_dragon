@@ -25,18 +25,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="../gallery" className={styles.card}>
             <h2>Gallery &rarr;</h2>
             <p>Check out examples of Red's previous work.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="../contact" className={styles.card}>
             <h2>Contact Us&rarr;</h2>
             <p>Book an appointment today!  Pricing is listed in our menu.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="../menu"
             className={styles.card}
           >
             <h2>Services Menu &rarr;</h2>
@@ -44,7 +44,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="../live_feed"
             className={styles.card}
           >
             <h2>Live Feed &rarr;</h2>
@@ -57,7 +57,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="../"
           target="_blank"
           rel="noopener noreferrer"
         >
