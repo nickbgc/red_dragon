@@ -17,6 +17,11 @@ export default function Home() {
           <h1 className={styles.title}>
             Contact Us
           </h1>
+          <p className={styles.card}>
+              Phone: (321)-213-8086
+              reddragondigital@gmail.com
+              Instagram: @reddragondigital
+          </p>
         </main>
   
         <footer className={styles.footer}>
