@@ -36,11 +36,11 @@ export default function Home() {
           </a>
 
           <a
-            href="../menu"
+            href="../packages"
             className={styles.card}
           >
-            <h2>Services Menu &rarr;</h2>
-            <p>Discover what we have to offer for your next event.</p>
+            <h2>Packages &rarr;</h2>
+            <p>Discover what services we have to offer clients.</p>
           </a>
 
           <a

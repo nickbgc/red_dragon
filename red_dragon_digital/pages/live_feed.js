@@ -14,9 +14,15 @@ export default function Home() {
         </Head>
   
         <main className={styles.main}>
-          <h1 className={styles.title}>
-            Live Feed
-          </h1>
+        <a
+            href="../live_feed"
+            className={styles.card}
+          >
+            <h2>Red's Live Feed &rarr;</h2>
+            <p>
+             (Coming Soon)
+            </p>
+          </a>
         </main>
   
         <footer className={styles.footer}>
