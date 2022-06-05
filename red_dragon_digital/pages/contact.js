@@ -18,9 +18,8 @@ export default function Home() {
             Contact Us
           </h1>
           <p className={styles.card}>
-              Phone: (321)-213-8086
-              reddragondigital@gmail.com
-              Instagram: @reddragondigital
+                  <a href="tel:3212138086">(321)-213-8086</a><br></br>
+              <a href="mailto:reddragondigital@gmail.com">reddragondigital@gmail.com</a>
           </p>
         </main>
   
