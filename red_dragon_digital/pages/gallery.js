@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/gallery.module.css'
 import fetch from 'isomorphic-unfetch';
 import Link from 'next/link';
 
@@ -17,6 +17,20 @@ export default function Home() {
           <h1 className={styles.title}>
             Gallery
           </h1>
+          <div class="row">
+  <div class="column">
+    
+  </div>
+  <div class="column">
+
+  </div>
+  <div class="column">
+    
+  </div>
+  <div class="column">
+    
+  </div>
+</div>
         </main>
   
         <footer className={styles.footer}>
